@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-public class BinaryTree {
+public class BinaryTreeBST {
 
     public static Node root;
 
