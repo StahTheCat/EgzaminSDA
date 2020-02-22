@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="930d3b44-3b2f-473b-870f-1b7c54a7ac32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/CatrCave/Zadanie2Spacerowicz/SpacerApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CatrCave/Zadanie2Spacerowicz/SpacerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CatrCave/Zadanie2Spacerowicz/SpacerApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +145,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582362320999</updated>
-      <workItem from="1582362324971" duration="19707000" />
+      <workItem from="1582362324971" duration="20036000" />
     </task>
     <task id="LOCAL-00001" summary="Stworzenie Repo">
       <created>1582362402932</created>
@@ -197,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582379566410</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Zadanie 2 bez implemtenacji warunku o przeciwległych ruchach">
+      <created>1582382640772</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1582382640772</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,37 +216,42 @@
     <MESSAGE value="Zadanie 5" />
     <MESSAGE value="Zadanie 8" />
     <MESSAGE value="Zadanie 8 TESTY" />
-    <option name="LAST_COMMIT_MESSAGE" value="Zadanie 8 TESTY" />
+    <MESSAGE value="Zadanie 2 bez implemtenacji warunku o przeciwległych ruchach" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zadanie 2 bez implemtenacji warunku o przeciwległych ruchach" />
   </component>
   <component name="WindowStateProjectService">
     <state x="446" y="58" key="#com.intellij.ide.util.MemberChooser" timestamp="1582380353776">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="446" y="58" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1582380353776" />
-    <state x="263" y="0" key="CommitChangelistDialog2" timestamp="1582379565712">
+    <state x="354" y="0" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1582382774579">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="263" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1582379565712" />
+    <state x="354" y="0" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1280.680@0.0.1280.680" timestamp="1582382774579" />
+    <state x="263" y="0" key="CommitChangelistDialog2" timestamp="1582382640056">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="263" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1582382640056" />
     <state x="421" y="97" key="FileChooserDialogImpl" timestamp="1582367472933">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="97" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1582367472933" />
-    <state width="410" height="583" key="GridCell.Tab.0.bottom" timestamp="1582382584349">
+    <state width="339" height="583" key="GridCell.Tab.0.bottom" timestamp="1582382939489">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="410" height="583" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582382584349" />
-    <state width="410" height="583" key="GridCell.Tab.0.center" timestamp="1582382584349">
+    <state width="339" height="583" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582382939489" />
+    <state width="339" height="583" key="GridCell.Tab.0.center" timestamp="1582382939488">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="410" height="583" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1582382584349" />
-    <state width="410" height="583" key="GridCell.Tab.0.left" timestamp="1582382584349">
+    <state width="339" height="583" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1582382939488" />
+    <state width="339" height="583" key="GridCell.Tab.0.left" timestamp="1582382939488">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="410" height="583" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1582382584349" />
-    <state width="410" height="583" key="GridCell.Tab.0.right" timestamp="1582382584349">
+    <state width="339" height="583" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1582382939488" />
+    <state width="339" height="583" key="GridCell.Tab.0.right" timestamp="1582382939488">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="410" height="583" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1582382584349" />
+    <state width="339" height="583" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1582382939488" />
     <state width="536" height="583" key="GridCell.Tab.1.bottom" timestamp="1582367046771">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -257,10 +268,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="536" height="583" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1582367046770" />
-    <state x="233" y="71" key="Vcs.Push.Dialog.v2" timestamp="1582379574313">
+    <state x="233" y="71" key="Vcs.Push.Dialog.v2" timestamp="1582382650501">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="71" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1582379574313" />
+    <state x="233" y="71" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1582382650501" />
     <state x="412" y="34" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1582379296066">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

@@ -16,31 +16,48 @@ public class SpacerApp {
 
 
         label:
-        while (true){
+        while (true) {
             String move = scn.nextLine();
             switch (move) {
                 case "P":
                     j++;
                     System.out.println("Twoja pozycja to " + i + " " + j);
-                    stos.push('P');
-
+                    if (!stos.isEmpty() && stos.pop().equals('L')) {
+                        stos.pop();
+                    } else {
+                        stos.push('P');
+                    }
                     break;
+
                 case "L":
                     j--;
                     System.out.println("Twoja pozycja to " + i + " " + j);
-                    stos.push('L');
-
+                    if (!stos.isEmpty() && stos.pop().equals('P')) {
+                        stos.pop();
+                    } else {
+                        stos.push('L');
+                    }
                     break;
+
                 case "G":
                     i++;
                     System.out.println("Twoja pozycja to " + i + " " + j);
-                    stos.push('G');
+                    if (!stos.isEmpty() && stos.pop().equals('D')) {
+                        stos.pop();
+                    } else {
+                        stos.push('G');
+                    }
 
                     break;
                 case "D":
                     i--;
                     System.out.println("Twoja pozycja to " + i + " " + j);
-                    stos.push('D');
+
+                    if (!stos.isEmpty() && stos.pop().equals('G')) {
+                        stos.pop();
+                    } else {
+                        stos.push('D');
+                    }
 
                     break;
                 case "ZAKOŃCZ":
@@ -52,17 +69,12 @@ public class SpacerApp {
 
         }
 
-        for (int k = 0; k<stos.size(); k++) {
-            System.out.print(stos.get(k) +" ");
+        for (int k = 0; k < stos.size(); k++) {
+            System.out.print(stos.get(k) + " ");
         }
 
 
-
-
     }
-
-
-
 
 
 }
