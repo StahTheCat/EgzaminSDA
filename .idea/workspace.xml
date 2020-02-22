@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="930d3b44-3b2f-473b-870f-1b7c54a7ac32" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/CatrCave/Zadanie2Spacerowicz/SpacerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CatrCave/Zadanie2Spacerowicz/SpacerApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -135,6 +136,18 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -220,6 +233,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Zadanie 2 bez implemtenacji warunku o przeciwległych ruchach" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="178" width="816" height="732" key="#Intentions" timestamp="1582387461676">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" width="816" height="732" key="#Intentions/0.0.1920.1040@0.0.1920.1040" timestamp="1582387461676" />
     <state x="446" y="58" key="#com.intellij.ide.util.MemberChooser" timestamp="1582380353776">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -228,6 +245,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="354" y="0" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1280.680@0.0.1280.680" timestamp="1582382774579" />
+    <state x="690" y="266" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1582387399262">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582387399262" />
     <state x="263" y="0" key="CommitChangelistDialog2" timestamp="1582382640056">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -236,22 +257,26 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="97" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1582367472933" />
-    <state width="339" height="583" key="GridCell.Tab.0.bottom" timestamp="1582382939489">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="618" height="912" key="GridCell.Tab.0.bottom" timestamp="1582388498411">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="339" height="583" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582382939489" />
-    <state width="339" height="583" key="GridCell.Tab.0.center" timestamp="1582382939488">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="618" height="912" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582388498411" />
+    <state width="618" height="912" key="GridCell.Tab.0.center" timestamp="1582388498410">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="339" height="583" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1582382939488" />
-    <state width="339" height="583" key="GridCell.Tab.0.left" timestamp="1582382939488">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="618" height="912" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582388498410" />
+    <state width="618" height="912" key="GridCell.Tab.0.left" timestamp="1582388498410">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="339" height="583" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1582382939488" />
-    <state width="339" height="583" key="GridCell.Tab.0.right" timestamp="1582382939488">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="618" height="912" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582388498410" />
+    <state width="618" height="912" key="GridCell.Tab.0.right" timestamp="1582388498411">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="339" height="583" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1582382939488" />
+    <state width="618" height="912" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582388498411" />
     <state width="536" height="583" key="GridCell.Tab.1.bottom" timestamp="1582367046771">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -272,6 +297,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="71" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1582382650501" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1582387029501">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582387029501" />
     <state x="412" y="34" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1582379296066">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
