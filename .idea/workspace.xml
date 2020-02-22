@@ -1,20 +1,151 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="930d3b44-3b2f-473b-870f-1b7c54a7ac32" name="Default Changelist" comment="" />
+    <list default="true" id="930d3b44-3b2f-473b-870f-1b7c54a7ac32" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CatrCave/Stos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CatrCave/StosTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CatrCave/AppTest.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Y9khzGVxrz7CzIJpKDwyESFvON" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="CatrCave" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.StosTest.isEmpty1">
+    <configuration name="StosTest.isEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EgzaminSDA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CatrCave.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="CatrCave" />
+      <option name="MAIN_CLASS_NAME" value="CatrCave.StosTest" />
+      <option name="METHOD_NAME" value="isEmpty" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StosTest.isEmpty1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EgzaminSDA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CatrCave.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="CatrCave" />
+      <option name="MAIN_CLASS_NAME" value="CatrCave.StosTest" />
+      <option name="METHOD_NAME" value="isEmpty1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StosTest.pop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EgzaminSDA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CatrCave.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="CatrCave" />
+      <option name="MAIN_CLASS_NAME" value="CatrCave.StosTest" />
+      <option name="METHOD_NAME" value="pop" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StosTest.push" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EgzaminSDA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CatrCave.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="CatrCave" />
+      <option name="MAIN_CLASS_NAME" value="CatrCave.StosTest" />
+      <option name="METHOD_NAME" value="push" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StosTest.size" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EgzaminSDA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CatrCave.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="CatrCave" />
+      <option name="MAIN_CLASS_NAME" value="CatrCave.StosTest" />
+      <option name="METHOD_NAME" value="size" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.StosTest.isEmpty1" />
+        <item itemvalue="JUnit.StosTest.isEmpty" />
+        <item itemvalue="JUnit.StosTest.size" />
+        <item itemvalue="JUnit.StosTest.pop" />
+        <item itemvalue="JUnit.StosTest.push" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -26,26 +157,77 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582362320999</updated>
-      <workItem from="1582362324971" duration="4000" />
+      <workItem from="1582362324971" duration="3144000" />
     </task>
+    <task id="LOCAL-00001" summary="Stworzenie Repo">
+      <created>1582362402932</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582362402933</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Stworzenie Repo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stworzenie Repo" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1237" height="164" key="GridCell.Tab.0.bottom" timestamp="1582362349949">
+    <state x="446" y="58" key="#com.intellij.ide.util.MemberChooser" timestamp="1582364218631">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="164" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582362349949" />
-    <state width="1237" height="164" key="GridCell.Tab.0.center" timestamp="1582362349949">
+    <state x="446" y="58" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1582364218631" />
+    <state x="263" y="0" key="CommitChangelistDialog2" timestamp="1582362402078">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="164" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1582362349949" />
-    <state width="1237" height="164" key="GridCell.Tab.0.left" timestamp="1582362349949">
+    <state x="263" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1582362402078" />
+    <state width="1237" height="122" key="GridCell.Tab.0.bottom" timestamp="1582365635879">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="164" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1582362349949" />
-    <state width="1237" height="164" key="GridCell.Tab.0.right" timestamp="1582362349949">
+    <state width="1237" height="122" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582365635879" />
+    <state width="1237" height="122" key="GridCell.Tab.0.center" timestamp="1582365635879">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="164" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1582362349949" />
+    <state width="1237" height="122" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1582365635879" />
+    <state width="1237" height="122" key="GridCell.Tab.0.left" timestamp="1582365635879">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="122" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1582365635879" />
+    <state width="1237" height="122" key="GridCell.Tab.0.right" timestamp="1582365635879">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="122" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1582365635879" />
+    <state width="400" height="583" key="GridCell.Tab.1.bottom" timestamp="1582364436015">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="400" height="583" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582364436015" />
+    <state width="400" height="583" key="GridCell.Tab.1.center" timestamp="1582364436015">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="400" height="583" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1582364436015" />
+    <state width="400" height="583" key="GridCell.Tab.1.left" timestamp="1582364436015">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="400" height="583" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1582364436015" />
+    <state width="400" height="583" key="GridCell.Tab.1.right" timestamp="1582364436015">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="400" height="583" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1582364436015" />
+    <state x="233" y="71" key="Vcs.Push.Dialog.v2" timestamp="1582362416528">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="71" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1582362416528" />
+    <state x="412" y="34" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1582364040004">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="412" y="34" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.680@0.0.1280.680" timestamp="1582364040004" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1582365348141">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1582365348141" />
   </component>
 </project>
