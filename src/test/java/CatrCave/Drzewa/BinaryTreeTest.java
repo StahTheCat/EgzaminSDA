@@ -89,7 +89,7 @@ class BinaryTreeTest {
         tree.addToTree(11);
         tree.addToTree(20);
 
-        Assertions.assertFalse(BinaryTree.isSymetric(tree));
+        Assertions.assertFalse(BinaryTree.isSymetric());
     }
     @Test
     void isSymetric1() {
@@ -102,10 +102,43 @@ class BinaryTreeTest {
         Node d = new Node (3, null, null);
         Node c = new Node (2, f, g);
         Node b = new Node (2, d, e);
-        Node root = new Node (1, b, c);
+        tree.root = new Node (1, b, c);
 
 
-        Assertions.assertTrue(BinaryTree.isSymetric(tree));
+        Assertions.assertTrue(BinaryTree.isSymetric());
+    }
+
+    @Test
+    void isSymetric2() {
+
+        BinaryTree tree = new BinaryTree();
+
+        Node f = new Node (3, null, null);
+        Node e = new Node (3, null, null);
+        Node d = new Node (3, null, null);
+        Node c = new Node (2, f, null);
+        Node b = new Node (2, d, e);
+        tree.root = new Node (1, b, c);
+
+
+        Assertions.assertFalse(BinaryTree.isSymetric());
+    }
+
+    @Test
+    void isSymetric3() {
+
+        BinaryTree tree = new BinaryTree();
+
+        Node g = new Node (4, null, null);
+        Node f = new Node (3, null, null);
+        Node e = new Node (3, null, null);
+        Node d = new Node (3, null, null);
+        Node c = new Node (2, f, g);
+        Node b = new Node (2, d, e);
+        tree.root = new Node (1, b, c);
+
+
+        Assertions.assertFalse(BinaryTree.isSymetric());
     }
 
 }

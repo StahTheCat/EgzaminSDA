@@ -1,5 +1,5 @@
 package CatrCave;
-
+    // ZADANIE 1
 public class Stos {
 
     int[] stos;
@@ -39,6 +39,7 @@ public class Stos {
         return stos;
     }
 
+    // ZANIDANIE 4
     public void odwróć(){
         for (int i = 0; i < (topElement/2); i++) {
             int temp = stos[i];
