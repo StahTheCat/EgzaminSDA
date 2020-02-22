@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="930d3b44-3b2f-473b-870f-1b7c54a7ac32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CatrCave/Drzewa/BinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CatrCave/Drzewa/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CatrCave/Drzewa/BinaryTreeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CatrCave/Drzewa/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CatrCave/Drzewa/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CatrCave/Drzewa/BinaryTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CatrCave/Drzewa/BinaryTreeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +55,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BinaryTreeTest.childLessNodes">
+  <component name="RunManager" selected="JUnit.BinaryTreeTest.treeSwitcher">
     <configuration name="BinaryTreeTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EgzaminSDA" />
       <extension name="coverage">
@@ -90,7 +88,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StosTest.isEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BinaryTreeTest.treeSwitcher" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EgzaminSDA" />
       <extension name="coverage">
         <pattern>
@@ -98,9 +96,9 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="CatrCave" />
-      <option name="MAIN_CLASS_NAME" value="CatrCave.StosTest" />
-      <option name="METHOD_NAME" value="isEmpty" />
+      <option name="PACKAGE_NAME" value="CatrCave.Drzewa" />
+      <option name="MAIN_CLASS_NAME" value="CatrCave.Drzewa.BinaryTreeTest" />
+      <option name="METHOD_NAME" value="treeSwitcher" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -140,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BinaryTreeTest.treeSwitcher" />
         <item itemvalue="JUnit.BinaryTreeTest.childLessNodes" />
         <item itemvalue="JUnit.BinaryTreeTest.add" />
         <item itemvalue="JUnit.StosTest.odwróć" />
         <item itemvalue="JUnit.StosTest.isEmpty1" />
-        <item itemvalue="JUnit.StosTest.isEmpty" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +156,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582362320999</updated>
-      <workItem from="1582362324971" duration="6049000" />
+      <workItem from="1582362324971" duration="9306000" />
     </task>
     <task id="LOCAL-00001" summary="Stworzenie Repo">
       <created>1582362402932</created>
@@ -181,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582367083598</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Zadanie nr 4. Na jego potrzeby urzyłem BST i funkce add i treeToArray">
+      <created>1582368555650</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1582368555650</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,37 +195,38 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Stworzenie Repo" />
     <MESSAGE value="Zadanie 4, funkcja odwróć" />
-    <option name="LAST_COMMIT_MESSAGE" value="Zadanie 4, funkcja odwróć" />
+    <MESSAGE value="Zadanie nr 4. Na jego potrzeby urzyłem BST i funkce add i treeToArray" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zadanie nr 4. Na jego potrzeby urzyłem BST i funkce add i treeToArray" />
   </component>
   <component name="WindowStateProjectService">
     <state x="446" y="58" key="#com.intellij.ide.util.MemberChooser" timestamp="1582364218631">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="446" y="58" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1582364218631" />
-    <state x="263" y="0" key="CommitChangelistDialog2" timestamp="1582367082895">
+    <state x="263" y="0" key="CommitChangelistDialog2" timestamp="1582368554878">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="263" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1582367082895" />
+    <state x="263" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1582368554878" />
     <state x="421" y="97" key="FileChooserDialogImpl" timestamp="1582367472933">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="97" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1582367472933" />
-    <state width="1237" height="122" key="GridCell.Tab.0.bottom" timestamp="1582368477353">
+    <state width="1237" height="122" key="GridCell.Tab.0.bottom" timestamp="1582371696131">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="122" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582368477353" />
-    <state width="1237" height="122" key="GridCell.Tab.0.center" timestamp="1582368477353">
+    <state width="1237" height="122" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582371696131" />
+    <state width="1237" height="122" key="GridCell.Tab.0.center" timestamp="1582371696130">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="122" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1582368477353" />
-    <state width="1237" height="122" key="GridCell.Tab.0.left" timestamp="1582368477352">
+    <state width="1237" height="122" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1582371696130" />
+    <state width="1237" height="122" key="GridCell.Tab.0.left" timestamp="1582371696130">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="122" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1582368477352" />
-    <state width="1237" height="122" key="GridCell.Tab.0.right" timestamp="1582368477353">
+    <state width="1237" height="122" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1582371696130" />
+    <state width="1237" height="122" key="GridCell.Tab.0.right" timestamp="1582371696130">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="122" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1582368477353" />
+    <state width="1237" height="122" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1582371696130" />
     <state width="536" height="583" key="GridCell.Tab.1.bottom" timestamp="1582367046771">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -241,10 +247,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="71" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1582362416528" />
-    <state x="412" y="34" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1582368043789">
+    <state x="412" y="34" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1582369712032">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="412" y="34" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.680@0.0.1280.680" timestamp="1582368043789" />
+    <state x="412" y="34" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.680@0.0.1280.680" timestamp="1582369712032" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1582365348141">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

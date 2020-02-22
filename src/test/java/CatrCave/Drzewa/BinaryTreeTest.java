@@ -54,4 +54,25 @@ class BinaryTreeTest {
         Assertions.assertEquals(expected,received);
 
     }
+
+    @Test
+    void treeSwitcher() {
+
+        BinaryTree tree = new BinaryTree();
+
+        tree.addToTree(10);
+        tree.addToTree(7);
+        tree.addToTree(15);
+        tree.addToTree(6);
+        tree.addToTree(8);
+        tree.addToTree(11);
+        tree.addToTree(20);
+
+
+        List<Integer> expected = Arrays.asList(10,15,7,20,11,8,6);
+        tree.treeSwitcher();
+        List<Integer> received = tree.treeToArray();
+
+        Assertions.assertEquals(expected,received);
+    }
 }
