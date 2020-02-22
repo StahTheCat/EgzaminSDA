@@ -38,4 +38,14 @@ public class Stos {
     public int[] getStos() {
         return stos;
     }
+
+    public void odwróć(){
+        for (int i = 0; i < (topElement/2); i++) {
+            int temp = stos[i];
+            stos[i] = stos[topElement-1-i];
+            stos[topElement-1-i] = temp;
+        }
+    }
+
+
 }
