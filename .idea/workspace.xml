@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="930d3b44-3b2f-473b-870f-1b7c54a7ac32" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/CatrCave/Zadanie2Spacerowicz/Skarb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CatrCave/Zadanie2Spacerowicz/Skarb1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CatrCave/Zadanie2Spacerowicz/SpacerApp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CatrCave/Drzewa/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CatrCave/Drzewa/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CatrCave/Stos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CatrCave/Stos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CatrCave/Drzewa/BinaryTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CatrCave/Drzewa/BinaryTreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CatrCave/Zadanie2Spacerowicz/SpacerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CatrCave/Zadanie2Spacerowicz/SpacerApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +34,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -56,7 +58,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BinaryTreeTest.isSymetric3">
+  <component name="RunManager" selected="Application.SpacerApp">
     <configuration name="SpacerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CatrCave.Zadanie2Spacerowicz.SpacerApp" />
       <module name="EgzaminSDA" />
@@ -136,10 +138,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SpacerApp" />
         <item itemvalue="JUnit.BinaryTreeTest.isSymetric3" />
         <item itemvalue="JUnit.BinaryTreeTest.isSymetric2" />
         <item itemvalue="JUnit.BinaryTreeTest.isSymetric1" />
-        <item itemvalue="Application.SpacerApp" />
         <item itemvalue="JUnit.MaximumStreamTest.maxOfStream1" />
       </list>
     </recent_temporary>
@@ -231,13 +233,21 @@
       <option name="project" value="LOCAL" />
       <updated>1582388555149</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="WSZYSTKO ŚMIGA (✿◠‿◠)">
+      <created>1582389900413</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1582389900413</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Stworzenie Repo" />
     <MESSAGE value="Zadanie 4, funkcja odwróć" />
     <MESSAGE value="Zadanie nr 4. Na jego potrzeby urzyłem BST i funkce add i treeToArray" />
@@ -246,7 +256,8 @@
     <MESSAGE value="Zadanie 8 TESTY" />
     <MESSAGE value="Zadanie 2 bez implemtenacji warunku o przeciwległych ruchach" />
     <MESSAGE value="Zadanie 2 działa prawidłowo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Zadanie 2 działa prawidłowo" />
+    <MESSAGE value="WSZYSTKO ŚMIGA (✿◠‿◠)" />
+    <option name="LAST_COMMIT_MESSAGE" value="WSZYSTKO ŚMIGA (✿◠‿◠)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" width="816" height="732" key="#Intentions" timestamp="1582387461676">
@@ -265,35 +276,35 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582387399262" />
-    <state x="395" y="0" key="CommitChangelistDialog2" timestamp="1582388553816">
+    <state x="395" y="0" key="CommitChangelistDialog2" timestamp="1582395321735">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="263" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1582382640056" />
-    <state x="395" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582388553816" />
+    <state x="395" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582395321735" />
     <state x="421" y="97" key="FileChooserDialogImpl" timestamp="1582367472933">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="97" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1582367472933" />
-    <state width="618" height="912" key="GridCell.Tab.0.bottom" timestamp="1582389334368">
+    <state width="663" height="912" key="GridCell.Tab.0.bottom" timestamp="1582395231210">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="339" height="583" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582382939489" />
-    <state width="618" height="912" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582389334368" />
-    <state width="618" height="912" key="GridCell.Tab.0.center" timestamp="1582389334368">
+    <state width="663" height="912" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582395231210" />
+    <state width="663" height="912" key="GridCell.Tab.0.center" timestamp="1582395231210">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="339" height="583" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1582382939488" />
-    <state width="618" height="912" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582389334368" />
-    <state width="618" height="912" key="GridCell.Tab.0.left" timestamp="1582389334368">
+    <state width="663" height="912" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582395231210" />
+    <state width="663" height="912" key="GridCell.Tab.0.left" timestamp="1582395231210">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="339" height="583" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1582382939488" />
-    <state width="618" height="912" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582389334368" />
-    <state width="618" height="912" key="GridCell.Tab.0.right" timestamp="1582389334368">
+    <state width="663" height="912" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582395231210" />
+    <state width="663" height="912" key="GridCell.Tab.0.right" timestamp="1582395231210">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="339" height="583" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1582382939488" />
-    <state width="618" height="912" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582389334368" />
+    <state width="663" height="912" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582395231210" />
     <state width="536" height="583" key="GridCell.Tab.1.bottom" timestamp="1582367046771">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -310,10 +321,11 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="536" height="583" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1582367046770" />
-    <state x="233" y="71" key="Vcs.Push.Dialog.v2" timestamp="1582382650501">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="350" y="109" key="Vcs.Push.Dialog.v2" timestamp="1582389928751">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="233" y="71" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1582382650501" />
+    <state x="350" y="109" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582389928751" />
     <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1582387029501">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
