@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-public class BinaryTreeBST {
+public class BinaryTree {
 
     public static Node root;
 
@@ -146,8 +146,24 @@ public class BinaryTreeBST {
                 current.setLeft(null);
             }
 
+        }
+
+    }
+
+    public static boolean isSymetric(BinaryTree tree){
 
 
+        List<Integer> expected = treeToArray();
+        treeSwitcher();
+        List<Integer> recived = treeToArray();
+
+        System.out.println(expected);
+        System.out.println(recived);
+
+        if (recived.equals(expected)){
+            return true;
+        } else {
+            return false;
         }
 
     }

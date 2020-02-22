@@ -34,9 +34,12 @@ class StosTest {
         stos.push(60);
 
         int expected = 60;
+        int expected2 = 50;
         int recived = stos.pop();
+        int recived2 = stos.pop();
 
         Assertions.assertEquals(expected, recived);
+        Assertions.assertEquals(expected2, recived2);
     }
 
     @Test
