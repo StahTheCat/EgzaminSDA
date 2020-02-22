@@ -3,14 +3,7 @@ package CatrCave;
 public class MaximumStream {
     //funkcja zwracająca sumę maksymalnego ciągu
 
-    public static void main(String[] args) {
-        int[] tab = {-1,2,3,4,-2};
-        System.out.println(maxOfStream(tab));
 
-        int[] tab1 = {-1,2,3,4,-2,6};
-        System.out.println(maxOfStream(tab1));
-
-    }
 
     public static int maxOfStream(int[] tab){
         if (tab.length<2){
