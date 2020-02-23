@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="930d3b44-3b2f-473b-870f-1b7c54a7ac32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/CatrCave/Zadanie2Spacerowicz/Skarb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CatrCave/Zadanie2Spacerowicz/Skarb1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CatrCave/Zadanie2Spacerowicz/SpacerApp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CatrCave/Drzewa/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CatrCave/Drzewa/Zadania3_5_7_BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CatrCave/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CatrCave/Zadanie6_InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CatrCave/MaximumStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CatrCave/Zadanie8_MaximumStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CatrCave/Stos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CatrCave/Zadanie1_4_Stos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CatrCave/Zadanie2Spacerowicz/Skarb.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/CatrCave/Zadanie2Spacerowicz/SpacerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CatrCave/Zadanie2Spacerowicz/SpacerApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CatrCave/Drzewa/BinaryTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CatrCave/Drzewa/Zadania357BinaryTreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CatrCave/MaximumStreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CatrCave/Zadanie8MaximumStreamTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CatrCave/StosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CatrCave/Zadanie1IZadanie4StosTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +28,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1Y9khzGVxrz7CzIJpKDwyESFvON" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -72,7 +78,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinaryTreeTest.isSymetric1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Zadania357BinaryTreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EgzaminSDA" />
       <extension name="coverage">
         <pattern>
@@ -81,14 +87,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="CatrCave.Drzewa" />
-      <option name="MAIN_CLASS_NAME" value="CatrCave.Drzewa.BinaryTreeTest" />
-      <option name="METHOD_NAME" value="isSymetric1" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="CatrCave.Drzewa.Zadania357BinaryTreeTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinaryTreeTest.isSymetric2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Zadania357BinaryTreeTest.isSymetric" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EgzaminSDA" />
       <extension name="coverage">
         <pattern>
@@ -97,14 +102,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="CatrCave.Drzewa" />
-      <option name="MAIN_CLASS_NAME" value="CatrCave.Drzewa.BinaryTreeTest" />
-      <option name="METHOD_NAME" value="isSymetric2" />
+      <option name="MAIN_CLASS_NAME" value="CatrCave.Drzewa.Zadania357BinaryTreeTest" />
+      <option name="METHOD_NAME" value="isSymetric" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinaryTreeTest.isSymetric3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Zadania357BinaryTreeTest.treeSwitcher" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EgzaminSDA" />
       <extension name="coverage">
         <pattern>
@@ -113,24 +118,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="CatrCave.Drzewa" />
-      <option name="MAIN_CLASS_NAME" value="CatrCave.Drzewa.BinaryTreeTest" />
-      <option name="METHOD_NAME" value="isSymetric3" />
+      <option name="MAIN_CLASS_NAME" value="CatrCave.Drzewa.Zadania357BinaryTreeTest" />
+      <option name="METHOD_NAME" value="treeSwitcher" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumStreamTest.maxOfStream1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Zadania357BinaryTreeTest.treeSwitcher1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EgzaminSDA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CatrCave.*" />
+          <option name="PATTERN" value="CatrCave.Drzewa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="CatrCave" />
-      <option name="MAIN_CLASS_NAME" value="CatrCave.MaximumStreamTest" />
-      <option name="METHOD_NAME" value="maxOfStream1" />
+      <option name="PACKAGE_NAME" value="CatrCave.Drzewa" />
+      <option name="MAIN_CLASS_NAME" value="CatrCave.Drzewa.Zadania357BinaryTreeTest" />
+      <option name="METHOD_NAME" value="treeSwitcher1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,10 +144,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.SpacerApp" />
-        <item itemvalue="JUnit.BinaryTreeTest.isSymetric3" />
-        <item itemvalue="JUnit.BinaryTreeTest.isSymetric2" />
-        <item itemvalue="JUnit.BinaryTreeTest.isSymetric1" />
-        <item itemvalue="JUnit.MaximumStreamTest.maxOfStream1" />
+        <item itemvalue="JUnit.Zadania357BinaryTreeTest" />
+        <item itemvalue="JUnit.Zadania357BinaryTreeTest.treeSwitcher" />
+        <item itemvalue="JUnit.Zadania357BinaryTreeTest.isSymetric" />
+        <item itemvalue="JUnit.Zadania357BinaryTreeTest.treeSwitcher1" />
       </list>
     </recent_temporary>
   </component>
@@ -240,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582389900413</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Dodałem minę i skarb, taki gameDev ( ͡° ͜ʖ ͡°)">
+      <created>1582395365207</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1582395365207</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,13 +269,18 @@
     <MESSAGE value="Zadanie 2 bez implemtenacji warunku o przeciwległych ruchach" />
     <MESSAGE value="Zadanie 2 działa prawidłowo" />
     <MESSAGE value="WSZYSTKO ŚMIGA (✿◠‿◠)" />
-    <option name="LAST_COMMIT_MESSAGE" value="WSZYSTKO ŚMIGA (✿◠‿◠)" />
+    <MESSAGE value="Dodałem minę i skarb, taki gameDev ( ͡° ͜ʖ ͡°)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodałem minę i skarb, taki gameDev ( ͡° ͜ʖ ͡°)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" width="816" height="732" key="#Intentions" timestamp="1582387461676">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" width="816" height="732" key="#Intentions/0.0.1920.1040@0.0.1920.1040" timestamp="1582387461676" />
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1582474084557">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582474084557" />
     <state x="446" y="58" key="#com.intellij.ide.util.MemberChooser" timestamp="1582380353776">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -272,39 +289,43 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="354" y="0" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1280.680@0.0.1280.680" timestamp="1582382774579" />
+    <state x="669" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582473764086">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="669" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582473764086" />
     <state x="690" y="266" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1582387399262">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582387399262" />
-    <state x="395" y="0" key="CommitChangelistDialog2" timestamp="1582395321735">
+    <state x="395" y="0" key="CommitChangelistDialog2" timestamp="1582395363671">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="263" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1582382640056" />
-    <state x="395" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582395321735" />
+    <state x="395" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582395363671" />
     <state x="421" y="97" key="FileChooserDialogImpl" timestamp="1582367472933">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="97" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1582367472933" />
-    <state width="663" height="912" key="GridCell.Tab.0.bottom" timestamp="1582395231210">
+    <state width="663" height="912" key="GridCell.Tab.0.bottom" timestamp="1582475298803">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="339" height="583" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582382939489" />
-    <state width="663" height="912" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582395231210" />
-    <state width="663" height="912" key="GridCell.Tab.0.center" timestamp="1582395231210">
+    <state width="663" height="912" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582475298803" />
+    <state width="663" height="912" key="GridCell.Tab.0.center" timestamp="1582475298802">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="339" height="583" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1582382939488" />
-    <state width="663" height="912" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582395231210" />
-    <state width="663" height="912" key="GridCell.Tab.0.left" timestamp="1582395231210">
+    <state width="663" height="912" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582475298802" />
+    <state width="663" height="912" key="GridCell.Tab.0.left" timestamp="1582475298802">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="339" height="583" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1582382939488" />
-    <state width="663" height="912" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582395231210" />
-    <state width="663" height="912" key="GridCell.Tab.0.right" timestamp="1582395231210">
+    <state width="663" height="912" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582475298802" />
+    <state width="663" height="912" key="GridCell.Tab.0.right" timestamp="1582475298802">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="339" height="583" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1582382939488" />
-    <state width="663" height="912" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582395231210" />
+    <state width="663" height="912" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582475298802" />
     <state width="536" height="583" key="GridCell.Tab.1.bottom" timestamp="1582367046771">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -321,15 +342,19 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="536" height="583" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1582367046770" />
-    <state x="350" y="109" key="Vcs.Push.Dialog.v2" timestamp="1582389928751">
+    <state x="350" y="109" key="Vcs.Push.Dialog.v2" timestamp="1582395373015">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="233" y="71" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1582382650501" />
-    <state x="350" y="109" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582389928751" />
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1582387029501">
+    <state x="350" y="109" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582395373015" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1582473340641">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582387029501" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582473340641" />
+    <state x="769" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582395408670">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="769" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582395408670" />
     <state x="412" y="34" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1582379296066">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

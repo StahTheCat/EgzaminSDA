@@ -1,11 +1,11 @@
 package CatrCave;
     // ZADANIE 1
-public class Stos {
+public class Zadanie1_4_Stos {
 
     int[] stos;
     int topElement;
 
-    public Stos(int size) {
+    public Zadanie1_4_Stos(int size) {
         this.stos = new int[size];
         this.topElement = 0;
     }

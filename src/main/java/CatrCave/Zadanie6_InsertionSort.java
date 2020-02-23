@@ -1,6 +1,6 @@
 package CatrCave;
 
-public class InsertionSort {
+public class Zadanie6_InsertionSort {
 
     public static void main(String[] args) {
 

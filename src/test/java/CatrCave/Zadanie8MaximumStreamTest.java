@@ -3,13 +3,11 @@ package CatrCave;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
-
-class MaximumStreamTest {
+class Zadanie8MaximumStreamTest {
 
     @Test
     void maxOfStream() {
-        MaximumStream ms = new MaximumStream();
+        Zadanie8_MaximumStream ms = new Zadanie8_MaximumStream();
 
         int[] tab = {-1,2,3,4,-2};
         int expected = 9;
@@ -21,7 +19,7 @@ class MaximumStreamTest {
     @Test
     void maxOfStream1() {
 
-        MaximumStream ms = new MaximumStream();
+        Zadanie8_MaximumStream ms = new Zadanie8_MaximumStream();
         int[] tab = {-1,2,3,4,-2,6};
         int expected = 13;
         int recived = ms.maxOfStream(tab);

@@ -1,6 +1,6 @@
 package CatrCave;
 
-public class MaximumStream {
+public class Zadanie8_MaximumStream {
     //funkcja zwracająca sumę maksymalnego ciągu
 
 

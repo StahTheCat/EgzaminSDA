@@ -9,6 +9,7 @@ public class SpacerApp {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
 
+        //dodaj klasę współrzędne
         int i = 0;
         int j = 0;
 
@@ -21,12 +22,12 @@ public class SpacerApp {
                 "G aby iść w górę \n" +
                 "D aby iść w dół \n" +
                 "wpisz: ZAKOŃCZ aby zakończyć");
-        //musiałem wywalić polskie znaki bo sie nie kopliwowało w terminalu
+
         System.out.println();
         System.out.println("Podobno na północnym-wchodzie jest skarb...");
         System.out.println("ale uważaj na MINY!");
 
-
+        //to do metody
         boolean mina = false;
 
         label:
@@ -113,7 +114,10 @@ public class SpacerApp {
             }
         }
 
-        System.out.println("Trasa, ktora przebyles to:" + stos);
+        System.out.print("Trasa, ktora przebyles to: " + stos);
+
+        }
+
     }
 
 
@@ -129,7 +133,6 @@ public class SpacerApp {
 
 
 
-}
 
  class Skarb1 {
 

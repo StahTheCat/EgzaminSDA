@@ -4,13 +4,13 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-public class BinaryTree {
+public class Zadania3_5_7_BinaryTree {
 
     public static Node root;
 
     //              ZADANIE 3 - FUNKCJA ZLICZA LIŚCIE (BEZDZIETNE WĘZŁY)
 
-    public static int childLessNodes(){
+    public static int zadanie3childLessNodes(){
 
         int counter = 0;
 
@@ -122,31 +122,6 @@ public class BinaryTree {
 
     //METODY POMOCNICZNE
 
-    public static void addToTree(int newValue) {
-        if (root == null) {
-            root = new Node(newValue, null, null);
-            return;
-        }
-
-        Node current = root;
-
-        while (true) {
-            if (newValue < current.getValue()) {
-                if (current.getLeft() == null) {
-                    current.setLeft(new Node(newValue, null, null));
-                    break;
-                }
-                current = current.getLeft();
-
-            } else {
-                if (current.getRight() == null) {
-                    current.setRight(new Node(newValue, null, null));
-                    break;
-                }
-                current = current.getRight();
-            }
-        }
-    }
 
     //metoda do przedurkowania drzewa
     public static List<Integer> treeToArray() {
