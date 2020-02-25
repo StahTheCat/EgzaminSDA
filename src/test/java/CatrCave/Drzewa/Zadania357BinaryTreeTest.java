@@ -26,6 +26,8 @@ class Zadania357BinaryTreeTest {
         Assertions.assertEquals(expected,received);
     }
 
+
+
     @Test
     void treeSwitcher1(){
         Node g = new Node (7, null, null);

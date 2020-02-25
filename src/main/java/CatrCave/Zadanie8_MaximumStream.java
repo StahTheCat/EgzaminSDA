@@ -4,9 +4,14 @@ public class Zadanie8_MaximumStream {
     //funkcja zwracająca sumę maksymalnego ciągu
 
 
+    public static int maxOfStream(int[] tab) {
 
-    public static int maxOfStream(int[] tab){
-        if (tab.length<2){
+        if (tab == null) {
+            System.out.println("Tabela jest pusta");
+            return 0;
+        }
+
+        if (tab.length < 2) {
             return tab[0];
         }
 
@@ -16,17 +21,16 @@ public class Zadanie8_MaximumStream {
         for (int i = 0; i < tab.length; i++) {
             tempSum += tab[i];
 
-            if (tempSum > maxSum){
+            if (tempSum > maxSum) {
                 maxSum = tempSum;
             }
 
-            if(tempSum<0){
+            if (tempSum < 0) {
                 tempSum = 0;
             }
         }
         return maxSum;
     }
-
 
 }
 

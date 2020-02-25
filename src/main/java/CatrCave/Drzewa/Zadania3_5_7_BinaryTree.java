@@ -37,10 +37,7 @@ public class Zadania3_5_7_BinaryTree {
             if (current.getRight() != null) {
                 searchQueue.addLast(current.getRight());
             }
-
         }
-
-
         return counter;
     }
 
@@ -49,8 +46,9 @@ public class Zadania3_5_7_BinaryTree {
     public static void treeSwitcher(){
         if (root == null) {
             System.out.println("Sadly, this tree is empty. So You can add something :)");
-
+            return;
         }
+
         LinkedList<Node> stack = new LinkedList<>();
         LinkedList<Node> queue = new LinkedList<>();
 
@@ -64,7 +62,6 @@ public class Zadania3_5_7_BinaryTree {
             if (current.getLeft() != null) {
                 queue.addLast(current.getLeft());
                 stack.push(current.getLeft());
-
             }
 
             if (current.getRight() != null) {
@@ -72,9 +69,6 @@ public class Zadania3_5_7_BinaryTree {
                 stack.push(current.getRight());
             }
 
-        }
-
-        while (!stack.isEmpty()) {
             current = stack.pop();
 
             if (current.getLeft() != null && current.getRight() != null) {
@@ -83,23 +77,30 @@ public class Zadania3_5_7_BinaryTree {
                 current.setLeft(current.getRight());
                 current.setRight(temp);
             }
-            if (current.getLeft() != null && current.getRight() == null) {
-
-                current.setLeft(current.getRight());
-                current.setRight(null);
-            }
-
-            if (current.getLeft() == null && current.getRight() != null) {
-
-                current.setRight(current.getLeft());
-                current.setLeft(null);
-            }
+//            if (current.getLeft() != null && current.getRight() == null) {
+//
+//                current.setLeft(current.getRight());
+//                current.setRight(null);
+//            }
+//
+//            if (current.getLeft() == null && current.getRight() != null) {
+//
+//                current.setRight(current.getLeft());
+//                current.setLeft(null);
+//            }
 
         }
 
     }
 
     //ZADANIE 7 FUNKCJA SPRAWDZA CZY DRZEWO JEST SYMETRYCZNE
+    //Zadanie 7. drobna uwaga - sprawdź symetryczność bez wpływania na drzewo
+    // - jeśli nie będzie symetryczne to twoja metoda zmienia jego strukturę.
+    // Podpowiedź - możesz stworzyć i zastosować rekurencyjną metodę - zaczynając od korzenia,
+    // podajesz do niej lewe i prawe dziecko korzenia - jeśli nie są takie same to zwróć fałsz, jeśli są,
+    // to wywołaj rekurencyjnie tą metodę z bliźniaczymi węzłami -
+    // lewe dziecko jednego z prawym dzieckiem drugiego, oraz prawe dziecko jednego z lewym dzieckiem drugiego -
+    // i tak aż trafisz na dwa liście
 
     public static boolean isSymetric(){
 
@@ -150,11 +151,6 @@ public class Zadania3_5_7_BinaryTree {
         }
         return arrayToPrint;
     }
-
-
-
-
-
 
 }
 

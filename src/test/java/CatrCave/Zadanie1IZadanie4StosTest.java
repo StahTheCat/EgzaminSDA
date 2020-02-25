@@ -31,11 +31,17 @@ class Zadanie1IZadanie4StosTest {
 
         int expected = 60;
         int expected2 = 50;
+        int expected3 = 40;
+
         int recived = zadanie14Stos.pop();
         int recived2 = zadanie14Stos.pop();
+        int recived3 = zadanie14Stos.pop();
+
 
         Assertions.assertEquals(expected, recived);
         Assertions.assertEquals(expected2, recived2);
+        Assertions.assertEquals(expected3, recived3);
+
     }
 
     @Test
@@ -74,6 +80,16 @@ class Zadanie1IZadanie4StosTest {
     }
 
     @Test
+    void odwróć_kończy_jeśli_stos_pusty() {
+        Zadanie1_4_Stos zadanie14Stos = new Zadanie1_4_Stos(4);
+
+        int[] expected = {};
+        zadanie14Stos.odwróć(zadanie14Stos);
+
+        Assertions.assertArrayEquals(expected, zadanie14Stos.getStos());
+    }
+
+    @Test
     void odwróć() {
         Zadanie1_4_Stos zadanie14Stos = new Zadanie1_4_Stos(4);
         zadanie14Stos.push(10);
@@ -82,7 +98,7 @@ class Zadanie1IZadanie4StosTest {
         zadanie14Stos.push(40);
 
         int[] expected = {40, 30, 20, 10};
-        zadanie14Stos.odwróć();
+        zadanie14Stos.odwróć(zadanie14Stos);
 
         Assertions.assertArrayEquals(expected, zadanie14Stos.getStos());
     }

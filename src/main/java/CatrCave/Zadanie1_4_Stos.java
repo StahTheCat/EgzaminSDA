@@ -1,9 +1,10 @@
 package CatrCave;
-    // ZADANIE 1
+
+// ZADANIE 1
 public class Zadanie1_4_Stos {
 
-    int[] stos;
-    int topElement;
+    private int[] stos;
+    private int topElement;
 
     public Zadanie1_4_Stos(int size) {
         this.stos = new int[size];
@@ -11,41 +12,40 @@ public class Zadanie1_4_Stos {
     }
 
     public void push(int x) {
-        stos[topElement] = x;
-        topElement++;
+        stos[topElement++] = x;
     }
 
     public int pop() {
-        int temp = stos[topElement - 1];
-        topElement--;
-        return temp;
+        return stos[--topElement];
     }
-
 
     public int size() {
         return topElement;
     }
 
     public boolean isEmpty() {
-
-        if (topElement == 0){
-            return true;
-        } else {
-            return false;
-        }
+        return topElement == 0;
     }
 
     public int[] getStos() {
         return stos;
     }
 
-    // ZANIDANIE 4
-    public void odwróć(){
-        for (int i = 0; i < (topElement/2); i++) {
-            int temp = stos[i];
-            stos[i] = stos[topElement-1-i];
-            stos[topElement-1-i] = temp;
+
+    public void odwróć(Zadanie1_4_Stos stos) {
+
+        if (this.stos == null) {
+            System.out.println("Stos jest pusty");
+            return;
         }
+
+        int n = stos.size();
+        Zadanie1_4_Stos kopiaStosu = new Zadanie1_4_Stos(n);
+        for (int i = 0; i < n; i++) {
+            kopiaStosu.push(stos.pop());
+        }
+        this.stos = kopiaStosu.getStos();
+
     }
 
 

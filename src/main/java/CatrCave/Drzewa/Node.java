@@ -3,8 +3,8 @@ package CatrCave.Drzewa;
 public class Node {
 
     int value;
-    Node left;
-    Node right;
+    private Node left;
+    private Node right;
 
     public Node(int value, Node left, Node right) {
         this.value = value;
