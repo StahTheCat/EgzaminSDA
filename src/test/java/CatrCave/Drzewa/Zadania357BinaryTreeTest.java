@@ -46,6 +46,7 @@ class Zadania357BinaryTreeTest {
 
     }
 
+
     @Test
     void treeSwitcher() {
 
@@ -77,7 +78,7 @@ class Zadania357BinaryTreeTest {
         Node b = new Node (4, d, e);
         Zadania3_5_7_BinaryTree.root = new Node (1, b, c);
 
-        Assertions.assertFalse(Zadania3_5_7_BinaryTree.isSymetric());
+        Assertions.assertFalse(Zadania3_5_7_BinaryTree.isSymetric(Zadania3_5_7_BinaryTree.root));
     }
 
     @Test
@@ -93,7 +94,7 @@ class Zadania357BinaryTreeTest {
         Zadania3_5_7_BinaryTree.root = new Node (1, b, c);
 
 
-        Assertions.assertTrue(Zadania3_5_7_BinaryTree.isSymetric());
+        Assertions.assertTrue(Zadania3_5_7_BinaryTree.isSymetric(Zadania3_5_7_BinaryTree.root));
     }
     @Test
     void isSymetric2() {
@@ -107,7 +108,7 @@ class Zadania357BinaryTreeTest {
         Zadania3_5_7_BinaryTree.root = new Node (1, b, c);
 
 
-        Assertions.assertFalse(Zadania3_5_7_BinaryTree.isSymetric());
+        Assertions.assertFalse(Zadania3_5_7_BinaryTree.isSymetric(Zadania3_5_7_BinaryTree.root));
     }
 
     @Test
@@ -123,7 +124,7 @@ class Zadania357BinaryTreeTest {
         Zadania3_5_7_BinaryTree.root = new Node (1, b, c);
 
 
-        Assertions.assertFalse(Zadania3_5_7_BinaryTree.isSymetric());
+        Assertions.assertFalse(Zadania3_5_7_BinaryTree.isSymetric(Zadania3_5_7_BinaryTree.root));
     }
 
 

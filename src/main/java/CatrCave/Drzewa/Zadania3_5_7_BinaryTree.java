@@ -10,7 +10,7 @@ public class Zadania3_5_7_BinaryTree {
 
     //              ZADANIE 3 - FUNKCJA ZLICZA LIŚCIE (BEZDZIETNE WĘZŁY)
 
-    public static int zadanie3childLessNodes(){
+    public static int zadanie3childLessNodes() {
 
         int counter = 0;
 
@@ -43,7 +43,7 @@ public class Zadania3_5_7_BinaryTree {
 
     //ZADANIE 5 - FUNKACJA ODWRACA DRZEWO
 
-    public static void treeSwitcher(){
+    public static void treeSwitcher() {
         if (root == null) {
             System.out.println("Sadly, this tree is empty. So You can add something :)");
             return;
@@ -56,7 +56,7 @@ public class Zadania3_5_7_BinaryTree {
         stack.push(current);
         queue.addLast(current);
 
-        while (!queue.isEmpty()){
+        while (!queue.isEmpty()) {
             current = queue.removeFirst();
 
             if (current.getLeft() != null) {
@@ -68,61 +68,70 @@ public class Zadania3_5_7_BinaryTree {
                 queue.addLast(current.getRight());
                 stack.push(current.getRight());
             }
-
             current = stack.pop();
 
-            if (current.getLeft() != null && current.getRight() != null) {
-
-                Node temp = current.getLeft();
-                current.setLeft(current.getRight());
-                current.setRight(temp);
-            }
-//            if (current.getLeft() != null && current.getRight() == null) {
-//
-//                current.setLeft(current.getRight());
-//                current.setRight(null);
-//            }
-//
-//            if (current.getLeft() == null && current.getRight() != null) {
-//
-//                current.setRight(current.getLeft());
-//                current.setLeft(null);
-//            }
-
+            Node temp = current.getLeft();
+            current.setLeft(current.getRight());
+            current.setRight(temp);
         }
-
     }
 
-    //ZADANIE 7 FUNKCJA SPRAWDZA CZY DRZEWO JEST SYMETRYCZNE
-    //Zadanie 7. drobna uwaga - sprawdź symetryczność bez wpływania na drzewo
-    // - jeśli nie będzie symetryczne to twoja metoda zmienia jego strukturę.
+
     // Podpowiedź - możesz stworzyć i zastosować rekurencyjną metodę - zaczynając od korzenia,
     // podajesz do niej lewe i prawe dziecko korzenia - jeśli nie są takie same to zwróć fałsz, jeśli są,
     // to wywołaj rekurencyjnie tą metodę z bliźniaczymi węzłami -
     // lewe dziecko jednego z prawym dzieckiem drugiego, oraz prawe dziecko jednego z lewym dzieckiem drugiego -
     // i tak aż trafisz na dwa liście
 
-    public static boolean isSymetric(){
+    //ZADANIE 7 FUNKCJA SPRAWDZA CZY DRZEWO JEST SYMETRYCZNE
+    public static boolean isSymetric(Node current) {
 
-
-        List<Integer> expected = treeToArray();
-        treeSwitcher();
-        List<Integer> recived = treeToArray();
-
-        System.out.println(expected);
-        System.out.println(recived);
-
-        if (recived.equals(expected)){
-            return true;
-        } else {
+        if (root == null){
+            //Zwraca false gdy drzewo jest puste
+            System.out.println("This tree is empty :( ");
             return false;
         }
 
+
+        LinkedList<Node> queue = new LinkedList<>();
+        queue.addLast(current.getLeft());
+        queue.addLast(current.getRight());
+
+        while (!queue.isEmpty()){
+            Node nodeLeft = queue.removeFirst();
+            Node nodeRight;
+            if (queue.isEmpty()){
+                return false;
+            } else {
+                nodeRight  = queue.removeFirst();
+            }
+
+            if (nodeLeft.getValue() != nodeRight.getValue()){
+                return false;
+            }
+
+            if (nodeLeft.getLeft() != null) {
+                queue.addLast(nodeLeft.getLeft());
+            }
+            if (nodeRight.getRight() != null) {
+                queue.addLast(nodeRight.getRight());
+            }
+
+            if (nodeLeft.getRight() != null) {
+                queue.addLast(nodeLeft.getRight());
+            }
+
+            if (nodeRight.getLeft() != null) {
+                queue.addLast(nodeRight.getLeft());
+            }
+
+        }
+
+        return true;
     }
 
 
     //METODY POMOCNICZNE
-
 
     //metoda do przedurkowania drzewa
     public static List<Integer> treeToArray() {
