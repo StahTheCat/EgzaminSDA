@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="930d3b44-3b2f-473b-870f-1b7c54a7ac32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/CatrCave/Zadanie2Spacerowicz/Gracz.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CatrCave/Zadanie2Spacerowicz/SpacerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CatrCave/Zadanie2Spacerowicz/SpacerApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -261,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582652166793</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="końcowe poprawki po feedbacku, reszta to zabawa :)">
+      <created>1582654379664</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1582654379664</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,7 +287,8 @@
     <MESSAGE value="Zmieniłem nazwy klas na Zadanie1 itd. do sprawdzenia." />
     <MESSAGE value="poprawki po feedbacku Barrnaby" />
     <MESSAGE value="poprawki po feedbacku Barrnaby:&#10;zadanie 7 działa ale nie rekurencyjnie :(" />
-    <option name="LAST_COMMIT_MESSAGE" value="poprawki po feedbacku Barrnaby:&#10;zadanie 7 działa ale nie rekurencyjnie :(" />
+    <MESSAGE value="końcowe poprawki po feedbacku, reszta to zabawa :)" />
+    <option name="LAST_COMMIT_MESSAGE" value="końcowe poprawki po feedbacku, reszta to zabawa :)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" width="816" height="732" key="#Intentions" timestamp="1582387461676">
@@ -314,11 +320,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582387399262" />
-    <state x="395" y="0" key="CommitChangelistDialog2" timestamp="1582652165214">
+    <state x="395" y="0" key="CommitChangelistDialog2" timestamp="1582654378480">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="263" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1582382640056" />
-    <state x="395" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582652165214" />
+    <state x="395" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582654378480" />
     <state x="632" y="148" key="FileChooserDialogImpl" timestamp="1582645326671">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -368,11 +374,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="97" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582645331509" />
-    <state x="350" y="109" key="Vcs.Push.Dialog.v2" timestamp="1582652171270">
+    <state x="350" y="109" key="Vcs.Push.Dialog.v2" timestamp="1582654389763">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="233" y="71" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1582382650501" />
-    <state x="350" y="109" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582652171270" />
+    <state x="350" y="109" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582654389763" />
     <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1582539619206">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
